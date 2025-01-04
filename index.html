@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDS22-formula</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#health">Health</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#formula">CDS22-formula</a></li>
+                <li><a href="#retailer">Become a Retailer</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#recipe">Recipe</a></li>
+                <li> <a href="#"><i class="fas fa-shopping-cart"></i></a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>The De Simone Formulation</h1>
+            <p>Unique and certified by the inventor.</p>
+            <button>Learn More</button>
+        </div>
+        <img src="images/capsule.jpg" alt="Hero Image">
+
+    </section>
+
+    <section id="details">
+        <h2>What is CDS22-formula?</h2>
+        <p>
+            CDS22-formula supports the dietary management of intestinal dysbiosis, Lorem, ipsum dolor sit amet 
+            consectetur adipisicing elit. Corporis amet fuga incidunt at neque tempora et quam quia ipsam! Ad odit atque quo omnis, ut iusto eius maiores officia ipsa. contributing to well-being 
+            in cases of irritable bowel syndrome, ulcerative colitis, and pouchitis. 
+        </p>
+    </section>
+
+    <section id="products">
+        <h2>Kills Bacteria</h2>
+        <div class="product">
+            <img src="images/bacteria.jpg" alt="Salmonella">
+            <h3>Salmonella Bacteria</h3>
+            <p>pathogenic bacteria cause diseases in humans</p>
+        </div>
+        <div class="product">
+            <img src="images/bacteria 2.jpg" alt="Ecoli">
+            <h3>Ecoli Bacteria</h3>
+            <p>pathogenic bacteria cause diseases in humans</p>
+        </div>
+        <div class="product">
+            <img src="images/bacteria 3.jpg" alt="Pseudo">
+            <h3>Pseudo Bacteria</h3>
+            <p>pathogenic bacteria cause diseases in humans</p>
+        </div>
+    </section>
+
+    <section id="science-speaks">
+        <h2>Science Speaks for Itself</h2>
+        <div class="science-content">
+            <img src="images/doctor.jpg" alt="Science Image">
+            <div class="description">
+                <p>
+                    Supported by solid scientific evidence, CDS22-formula is highly effective in the dietary management of various 
+                    gastrointestinal conditions. With over 200 peer-reviewed articles and 80+ controlled clinical studies, the 
+                    formulation's benefits are proven and replicable in everyday use.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="how-it-works">
+        <h2>How Does It Work?</h2>
+        <p>
+            The CDS22-formula is designed to restore and maintain intestinal health through a proprietary blend of bacterial strains.
+            These strains work synergistically to improve digestive comfort, reduce symptoms of intestinal disorders, and support
+            overall well-being.
+        </p>
+        <img src="images/germs.jpg" alt="How It Works">
+    </section>
+
+    <section id="product-packaging">
+        <h2>Product Packaging</h2>
+        <div class="product-packaging-item">
+            <img src="images/capsule.jpg" alt="450 Billion Sachets">
+            <h3>450 Billion Sachets</h3>
+            <p>Potency: 450 billion live bacteria per sachet. Comes in a pack of 12 sachets.</p>
+            <p class="price">$25.00</p>
+            <button class="shop-button" data-name="450 Billion Sachets" data-price="25.00">Shop Now</button>
+            
+        </div>
+        <div class="product-packaging-item">
+            <img src="images/green.jpg" alt="900 Billion Sachets">
+            <h3>900 Billion Sachets</h3>
+            <p>Potency: 900 billion live bacteria per sachet. Comes in a pack of 6 sachets.</p>
+            <p class="price">$25.00</p>
+            <button class="shop-button" data-name="450 Billion Sachets" data-price="25.00">Shop Now</button>
+        </div>
+        <div class="product-packaging-item">
+            <img src="images/capsule.jpg" alt="112 Billion Capsules">
+            <h3>112 Billion Capsules</h3>
+            <p>Potency: 112 billion live bacteria per capsule. Comes in a pack of 20 capsules.</p>
+            <p class="price">$25.00</p>
+            <button class="shop-button" data-name="450 Billion Sachets" data-price="25.00">Shop Now</button>
+        </div>
+    </section>
+
+    
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+            </tbody>
+        </table>
+        <div id="cart-total">
+            <h3>Total: $<span id="total-price">0.00</span></h3>
+        </div>
+    </section>
+    
+    
+
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+<footer>
+        <p>&copy;Thank you for visiting CDS22-formula website</p>
+ </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
