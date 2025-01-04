@@ -2,13 +2,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebas
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
-};
+    apiKey: "AIzaSyBjSWtucwQuQX9if-9Pw8g8GsmJicICAjM",
+    authDomain: "mini-hackathon-4da7c.firebaseapp.com",
+    projectId: "mini-hackathon-4da7c",
+    storageBucket: "mini-hackathon-4da7c.firebasestorage.app",
+    messagingSenderId: "994378483234",
+    appId: "1:994378483234:web:bef7f826b40a46db6aac7b",
+    measurementId: "G-2NPH2G7VD9"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
